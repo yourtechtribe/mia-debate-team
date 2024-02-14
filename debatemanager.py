@@ -7,7 +7,7 @@ debate management modules
 """
 class debate:    
     def __init__(self,api_key,llm="gpt-3.5-turbo-0125",
-                 saved_team=r'C:\Users\Usuario\Downloads\ytt\debate_team\debateteam.json'):
+                 saved_team=r'https://raw.githubusercontent.com/yourtechtribe/mia-debate-team/main/debateteam.json'):
         import os
         import json
         
